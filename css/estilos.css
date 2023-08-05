@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #F3EBEB;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.perfil-portrait{
+    width: 90%;
+    padding: 16px;
+    margin: 16px;
+    display:flex;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.img-perfil{
+    width: 85%;
+    height: auto;
+}
+
+.gray-text{
+    color: #828282;
+}
+
+.perfil-portrait__info{
+    font-size:18px;
+    text-align: start;
+    padding:16px;
+}
+
+.portrait__info{
+    padding: 8px;
+}
+
+.portrait__info i{
+    margin-right: 8px;
+}
