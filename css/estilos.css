@@ -4,21 +4,24 @@
     margin:0;
 }
 
-body{
+html{
+    background-color: #F3EBEB;
+}
+
+main{
     background-color: #F3EBEB;
     font-family: 'Montserrat', sans-serif;
 }
 
 .perfil-portrait{
-    width: 90%;
-    padding: 16px;
-    margin: 16px;
     display:flex;
     border-radius: 12px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #FFFFFF;
+    margin: 12px 8px;
+    padding: 8px;
 }
 
 .img-perfil{
@@ -43,3 +46,225 @@ body{
 .portrait__info i{
     margin-right: 8px;
 }
+
+.container {
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    }
+
+.container h3{
+    padding: 12px 0px;
+    color: #4F4F4F;
+    font-weight: 600;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.skill-label {
+    color: #828282;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 15px;
+    min-width: 80px;
+}
+
+.progress {
+    width: 70%;
+    border-radius: 0%;
+    background-color: #C4C4C4;
+    overflow: hidden;
+}
+
+.progress-rectangle {
+    height: 100%;
+    background-color: #2F80ED; /* HTML and JS color */
+}
+
+.container-proyectos{
+    margin-left: 8px;
+    margin-right: 8px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.container-proyectos h3{
+    font-weight: 600;
+    color: #4F4F4F;
+    padding: 12px;
+}
+
+.container-proyectos__botones{
+    padding: 16px;
+}
+
+.btn-primary{
+    padding: 8px 10px 8px 10px;
+    border-radius: 12px;
+}
+
+.javascript{
+    padding: 8px 10px 8px 10px;
+    border-radius: 12px;
+    border: 1px solid #4F4F4F;
+}
+
+.react{
+    border-radius: 12px;
+    border: 1px solid #4F4F4F;
+    padding: 8px 16px 8px 16px;
+}
+
+.container-portfolio{
+    margin: 16px 8px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.container-portfolio img {
+    width: 95%;
+    margin: 8px;
+    padding: 10px;
+}
+
+.container-portfolio h4{
+    margin-left: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    color: #4F4F4F;
+}
+
+.container-portfolio h3{
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+.container-portfolio p{
+    margin-top:10px;
+    margin-left: 16px;
+    font-size: 18px;
+    color: #828282;
+    font-weight: 500;
+}
+
+.btn-demo{
+    margin-left: 16px;
+    padding: 8px 30px 8px 30px;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+
+.btn-code{
+    margin-left: 16px;
+    padding: 8px 30px 8px 30px;
+    color:#2F80ED;
+    border-radius: 12px;
+    border: 1px solid #2F80ED;
+    margin-bottom: 24px;
+}
+
+.container-experiencia{
+    margin: 16px 8px;
+    padding: 4px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+.container-experiencia h3{
+    color: #4F4F4F;
+    font-weight: 600;
+    margin-left: 16px;
+    padding: 10px 0px;
+}
+
+.container-developer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #C4C4C4;
+    margin: 16px;
+    padding: 8px;
+}
+
+.container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    gap: 6px;
+}
+
+.container-info img{
+    width: 54.9px;
+    height: auto;
+}
+
+.container-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 6px;
+    padding: 4px;
+}
+
+.container-txt p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #828282;
+}
+
+.container-txt .p-black{
+    font-size: 16px;
+    color: #000000;
+}
+
+.container-certificados{
+    margin: 16px 8px;
+    padding: 4px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+.container-certificados h3{
+    color: #4F4F4F;
+    font-weight: 600;
+    margin-left: 16px;
+    padding: 10px 0px;
+}
+
+.certificado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.certificado img{
+    width: 95%;
+    border: 1px solid #C4C4C4;
+    border-radius: 12px;
+}
+
+.container-certificados .p-black{
+    margin: 18px 12px 0px 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.container-certificados p{
+    margin-left: 12px;
+    font-size: 14px;
+    color: #828282;
+}
+
